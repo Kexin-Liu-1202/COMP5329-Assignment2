@@ -76,6 +76,18 @@ If you want to run the notebook interactively:
 jupyter notebook
 ```
 
+## Dataset Note
+
+The CIFAR-10 dataset is not included in this GitHub repository.
+
+We intentionally excluded the `data/` directory because:
+
+- the raw dataset files are large and are not necessary for inspecting the code, trained models, and final results;
+- GitHub is used here to share the implementation, final 50-epoch outputs, checkpoints, and analysis artifacts;
+- CIFAR-10 can be downloaded separately from the official source if full reproduction from scratch is needed.
+
+This repository already includes the final experiment outputs in `results_e50/`, the best checkpoints in `checkpoints_e50/`, and the analysis outputs in `analysis/`.
+
 ## How To Reproduce
 
 ### 1. Run the main notebook
