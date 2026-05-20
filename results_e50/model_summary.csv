@@ -1,0 +1,4 @@
+model,blocks_per_stage,channels_per_stage,conv_layers,type,parameters,parameters_M
+CNN-SW,"[2, 2, 2]","[64, 128, 256]",6,shallow-wide,1148874,1.148874
+CNN-M,"[4, 4, 4]","[40, 80, 160]",12,medium,1056130,1.05613
+CNN-DN,"[5, 5, 5]","[36, 72, 144]",15,deep-narrow,1101358,1.101358

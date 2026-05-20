@@ -1,0 +1,4 @@
+model,final_train_acc,final_test_acc,best_test_acc,best_epoch,generalization_gap
+CNN-SW,0.98166,0.9146,0.9151,49,0.06706000000000001
+CNN-M,0.99456,0.9283,0.9285,46,0.06625999999999999
+CNN-DN,0.99176,0.9269,0.9269,50,0.06486000000000003
